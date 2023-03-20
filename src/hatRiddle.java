@@ -6,8 +6,8 @@ public class hatRiddle {
 
 
     public hatRiddle() {
-        hats[0] = "beyaz";
-        hats[1] = "siyah";
+        hats[0] = "White";
+        hats[1] = "Black";
 
         for (int i = 0; i < 10; i++) {
             peopleHats[i] = hats[(int) (Math.random() * 2)];
